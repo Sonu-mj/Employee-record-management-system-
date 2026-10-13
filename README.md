@@ -60,7 +60,7 @@ Create a `.env` file (already provided):
 ```
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/erms
-JWT_SECRET=erms_jwt_secret_key_2024
+JWT_SECRET=YOUR_STRONG_RANDOM_SECRET_HERE
 JWT_EXPIRE=24h
 ```
 
@@ -93,12 +93,12 @@ The app will open at `http://localhost:3000`.
 
 ### 4. Login
 
-Use these demo credentials:
+Log in with an account created during setup (see seeding step above).
 
 | Role    | Email            | Password      |
 |---------|------------------|---------------|
-| Admin   | admin@erms.com   | password123   |
-| Employee| john@erms.com   | password123   |
+| Admin   | [removed]   | [removed]   |
+| Employee| [removed]   | [removed]   |
 
 ## API Endpoints
 
@@ -181,7 +181,7 @@ git push -u origin main
 | Key            | Value                                              |
 |----------------|----------------------------------------------------|
 | `MONGO_URI`    | `mongodb+srv://<user>:<pass>@cluster.mongodb.net/erms` |
-| `JWT_SECRET`   | `erms_jwt_secret_key_2024`                         |
+| `JWT_SECRET`   | `YOUR_STRONG_RANDOM_SECRET_HERE`                         |
 | `JWT_EXPIRE`   | `24h`                                              |
 | `FRONTEND_URL` | `https://erms-frontend.onrender.com`               |
 
